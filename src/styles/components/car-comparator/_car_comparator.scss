@@ -4,7 +4,7 @@
   &__container {
     background-color: #fff;
     max-width: 120rem;
-    margin: 8rem auto;
+    margin: 2rem auto;
     color: #faf9f9;
     background-image: linear-gradient(
       110.7deg,
@@ -15,27 +15,29 @@
 
     &-h1 {
       color: #faf9f9;
-      font-size: 1.25rem;
+      font-size: 2.25rem;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 1.5rem 1.5rem;
       text-align: center;
     }
     &-main-box {
       display: flex;
-      justify-content: space-between;
-      width: 60%;
       margin: 0 auto;
-      & > * {
-        margin: 2rem;
-        padding: 1rem;
-      }
+      padding: 2.5rem 5rem;
       &-1 {
-        flex: 0 0 30%;
+        flex: 0 0 45%;
         background: #faf9f9;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 3rem;
+        margin-right: auto;
+        border-radius: 0.5rem;
         &-select {
+          color: #777;
           border: 1px solid #cacccd;
           height: 3rem;
           font-size: 1.5rem;
@@ -62,14 +64,17 @@
         }
       }
       &-2 {
-        flex: 0 0 30%;
+        flex: 0 0 45%;
         background: #faf9f9;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 3rem;
+        border-radius: 0.5rem;
+
         &-select {
+          color: #777;
           border: 1px solid #cacccd;
           height: 3rem;
           font-size: 1.5rem;
