@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => (
   <header className="header">
-    <img src="/images/favicon.png" alt="Logo" className="header__logo" />
+    <img src="/images/sun_icon.png" alt="Logo" className="header__logo" />
 
     <nav className="navbar">
       <Link className="navbar__link" to="/dashboard">
